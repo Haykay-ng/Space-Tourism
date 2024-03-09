@@ -1,0 +1,254 @@
+.technology-body{
+   background: url(../assets/assets/technology/background-technology-desktop.jpg);
+   height: 100vh;
+    background-size: cover;
+}
+.technology{
+padding-top:  140px;
+width: 100%;
+display: flex;
+justify-content: end;
+}
+
+.tech-container{
+
+    height: 80vh;
+    width: 90%;
+}
+
+.title-tech{
+    font-weight: 400;
+    font-size: 1.5rem;
+    height: 10%;
+}
+
+.title-tech h1{
+    font-weight: 100;
+}
+
+.title-tech span{
+    color: gray;
+    padding-right: 20px;
+    font-weight: 400;
+}
+.tech-content{
+    height: 90%;
+    display: flex;
+}
+
+.left-content-tech{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-content-tech{
+    height: 100%;
+    width: 40%;
+}
+
+.left-content{
+    color: white;
+    width: 70%;
+}
+
+.left-button{
+    width: 20%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-button button{
+    height: 30%;
+    width: 40%;
+    border-radius: 50%;
+
+}
+
+.left-content h1{
+    font-size: 5rem;
+    font-weight: 400;
+
+}
+
+.left-content p{
+    font-size: 1.2rem;
+
+}
+
+.right-content-tech{
+
+    width: 40%;
+    height: 100%;
+    
+}
+
+.img-mobile{
+    display: none;
+}
+
+.img-desktop{
+    height: 80%;
+    width: 80%;
+    right: 50%;
+}
+.img-desk-one{
+    height: 100%;
+    width: 100%;
+}
+
+
+@media (min-width: 200px) and (max-width:767px){
+    .img-mobile{
+        display: flex;
+    }
+
+    .img-desktop{
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 370px) and (max-width: 767px){
+    .technology-body{
+        background: url(../assets/assets/technology/background-technology-mobile.jpg);
+        height: 100vh;
+         background-size: cover;
+     }
+     .technology{
+     padding-top:  80px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     height: 80vh;
+     }
+     
+     .tech-container{
+     
+         height: 100%;
+         width: 90%;
+     }
+     
+     .title-tech{
+         height: 10%;
+         
+     }
+     
+     .title-tech h1{
+         font-weight: 400;
+         font-family: "Bellefair", serif;
+         font-size: 1.2rem;
+         text-align: center;
+    
+         
+     }
+     
+     .title-tech span{
+         color: gray;
+         padding-right: 30px;
+     }
+     .tech-content{
+         height: 95%;
+         /* width: 100%; */
+         display: flex;
+         flex-direction: column-reverse;
+         padding-bottom: 5px;
+         justify-content: center;
+        
+     }
+     
+     .left-content-tech{
+         height: 50%;
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         flex-direction: column;
+         color: white;
+     }
+     
+     .right-content-tech{
+         height: 50%;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         
+        
+     }
+     
+     .left-content{
+         color: white;
+         width: 80%;
+         height: 100%;
+         text-align: center;
+        justify-content: space-between;
+        font-family: "Bellefair", serif;
+         
+     }
+
+
+      .left-content h1{
+        font-weight: 400;
+        font-size: 3rem;
+        padding: 1px;
+        
+
+      }
+      .left-content h3{
+        font-weight: 400;
+        font-size: 1rem;
+        padding: 2px;
+        height: 10%;
+      }
+
+      .left-content p{
+        font-size: 1rem;
+        width: 100%;
+        padding:1px;
+        font-weight: 400;
+        font-family: 'Barlow condensed', serif;
+        color: white;
+        line-height: 2rex;
+        text-align: center;
+     
+     }
+     
+     .left-button{
+        height: 70%;
+        width: 40%;
+        padding-top: 15px;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 15px;
+     }
+     
+     .left-button button{
+        border-radius: 80%;
+        padding:4px 4px;
+        height: 50%;
+     
+     }
+     
+     
+     
+     
+     
+     .right-content-tech{
+        height: 45%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid gray;
+         
+     }
+     
+     
+     
+     
+     
+}
