@@ -1,4 +1,4 @@
-starter.code 
+
 # logs
 logs
 * Logs
@@ -10,6 +10,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+starter_code
 node_modules
 dist
 dist-ssr
