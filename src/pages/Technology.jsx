@@ -31,7 +31,7 @@ const Technology = () => {
               </div>
 
               <div className="left-content">
-                <h3>THE TERMINOLOGY ...`</h3>
+                <h3>THE TERMINOLOGY ...</h3>
                 <h1>{name.toUpperCase()}</h1>
                 <p>{description}</p>
               </div>
